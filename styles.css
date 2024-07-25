@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+}
+
+main {
+    height: 100vh; 
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar  {
+    height: 320px;
+
+}
+
+.banner{
+    
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.portada{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px; 
+    background-image: url("./paisaje.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+    justify-content: center;
+}
+
+.avatar-container{
+    background-color:rgb(173, 173, 158);
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    border: 10px solid rgb(16, 3, 3);
+    margin-left: center;
+    margin-right: center;
+    z-index: 1;
+}
+
+.perfil{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0;
+    font-size: 54px;
+
+}
+
+.about{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.social{
+    margin-top: 48px;
+}
+
+.social-titulo{
+    text-align: center;
+    font-size: 42px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-between;
+    max-width:500px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.social-item{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid beige;
+    padding: 10px;
+    border-radius: 16;
+    text-decoration: none;
+}
+
+.titulo2 {
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 20px;
+    margin: opx;
+}
+
+.habilidades-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hobbies-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0;
+    text-decoration: none;
+}
+
+.titulo3{
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 20px;
+    margin: opx;
+}
+
+.Hobbies-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobbies-item2{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0;
+    text-decoration: none;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
